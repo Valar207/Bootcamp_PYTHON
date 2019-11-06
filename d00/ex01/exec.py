@@ -6,5 +6,5 @@ if len(sys.argv) >= 2:
         res += sys.argv[i] + " "
         i += 1
 else:
-    sys.exit(0)
+    exit(0)
 print(res.strip().swapcase()[::-1])
